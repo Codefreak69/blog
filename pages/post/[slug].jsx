@@ -10,6 +10,7 @@ import {
   CommentsForm,
 } from "../../components";
 
+import { Loader } from "../../components";
 const PostDetails = ({ post }) => {
   const router = useRouter();
   if (router.isFallback) {
